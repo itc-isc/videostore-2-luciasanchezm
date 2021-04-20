@@ -1,3 +1,5 @@
+package wsVideoStore;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,9 +53,7 @@ public class RentalStatement {
   }
 
   private String makeSummary() {
-    return "You owed " + totalAmount + "\n" +
-      "You earned " + frequentRenterPoints +
-      " frequent renter points\n";
+    return "You owed " + totalAmount + "\n" + "You earned " + frequentRenterPoints + " frequent renter points\n";
   }
 
   public String getName() {
